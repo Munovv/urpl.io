@@ -41,3 +41,9 @@ ALTER TABLE `i_url_data`
 -- AUTO_INCREMENT для сохранённых таблиц
 --
 
+--
+-- AUTO_INCREMENT для таблицы `i_url_data`
+--
+ALTER TABLE `i_url_data`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
