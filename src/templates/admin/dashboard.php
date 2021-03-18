@@ -16,7 +16,7 @@
 
   <div class="col-md-4 col-md-offset-0">
       <div class="title"><h2>Github</h2></div>
-      <div class="menu-box glass" id="github-button" onclick="javascript:document.location.href='https://github.com/Munovv'">
+      <div class="menu-box glass" id="github-button" onclick="javascript:document.location.href='https://github.com/Munovv/urpl.io'">
         <i class="zmdi zmdi-github zmdi-hc-4x"></i>
       </div>
   </div>
