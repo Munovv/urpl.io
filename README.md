@@ -6,7 +6,7 @@
 
 ##### Get all the files from the '/src' folder to the root folder of your empty domain
 
-##### Upload db.sql to MySQL or PostgreSQL
+##### Upload db.sql to MySQL
 
 ##### Change the connection to your database in the file (app/config/AppConfiguration.php)
 
