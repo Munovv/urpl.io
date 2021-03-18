@@ -10,3 +10,5 @@
 $ sudo apt update
 
 ```
+
+##### Далее устанавливаем пакет <code>Apache2</code>
