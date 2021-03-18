@@ -31,3 +31,15 @@ public static $admin = [
       ];
 
 ```
+
+## Written based on
+
+* [PHP 7.4](https://www.php.net/downloads.php#v7.4.16)
+* [Jquery.js](https://electronjs.org/)
+* [TweenMax.js](https://greensock.com/tweenmax)
+* [Bootstrap 5](https://getbootstrap.com/)
+
+## Authors
+
+* [Munovv](https://github.com/Munovv)
+
