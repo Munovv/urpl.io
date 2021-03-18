@@ -79,3 +79,21 @@ apache2.service - The Apache HTTP Server
 http://your_server_ip
 ```
 
+## 4. Установка MySQL
+``` linux
+$ sudo apt install mysql-server
+```
+
+``` linux
+$ sudo mysql_secure_installation
+```
+
+##### Плагин для валидации паролей (необязательно для тестового сервера)
+``` linux
+$ sudo mysql_secure_installation
+```
+
+##### Вход в MySQL
+``` linux
+$ sudo <p color="red">mysql</p>
+```
