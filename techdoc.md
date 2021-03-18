@@ -89,11 +89,82 @@ $ sudo mysql_secure_installation
 ```
 
 ##### Плагин для валидации паролей (необязательно для тестового сервера)
-``` shell
+``` linux
 $ sudo mysql_secure_installation
 ```
 
 ##### Вход в MySQL
-``` sudo
+``` linux
 $ sudo mysql
 ```
+
+## 5. Установка PHP
+
+``` linux
+$ sudo apt install php libapache2-mod-php php-mysql
+```
+
+##### Далее открываем файл <code>dir.conf</code> с правами root-пользователя
+
+``` linux
+$ sudo nano /etc/apache2/mods-enabled/dir.conf
+```
+
+##### В итоге видим содержимое файла
+
+```
+<IfModule mod_dir.c>
+    DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
+</IfModule>
+```
+
+##### Делаем приоритет на index.php
+
+```
+<IfModule mod_dir.c>
+    DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>
+```
+
+##### Перезагружаем Apache, чтобы изменения вступили в силу:
+
+``` linux
+$ sudo systemctl restart apache2
+```
+
+##### Далее устанавливаем необходимые библиотеки для PHP
+
+Для установки PDO
+``` linux
+$ sudo apt install PDO
+```
+Для других библиотек
+
+``` linux
+$ sudo apt install package1, package2, ...
+```
+
+## 6. Тестируем сервер
+
+##### Создаем в папке '/var/www/html/' скрипт hello.php
+
+``` linux
+$ sudo nano /var/www/html/hello.php
+```
+
+##### Открываем файл и вводим в него
+
+``` php
+<?php
+  echo "Hello World!";
+?>
+```
+
+##### Переходим на него через URL: <code>http://ваш_ip_адрес/hello.php</code>
+
+##### Далее можете его удалить через команду:
+
+``` linux
+$ sudo rm /var/www/html/hello.php
+```
+
