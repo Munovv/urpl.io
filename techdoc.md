@@ -167,4 +167,4 @@ $ sudo nano /var/www/html/hello.php
 ``` linux
 $ sudo rm /var/www/html/hello.php
 ```
-
+###### Но также Вы еще можете установить phpmyadmin для удобной работы.
