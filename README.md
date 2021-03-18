@@ -1,6 +1,6 @@
 # urpl.io - Simple link shortener
 
-Web application for shortening links. There is an admin panel where you can change links or delete them. No responsive design
+Web application for shortening links. There is an admin panel where you can change links or delete them. No responsive design, but you can fix it.
 
 ![Preview image](assets/preview.png)
 
