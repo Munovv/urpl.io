@@ -32,6 +32,15 @@ public static $admin = [
 
 ```
 
+#### Debuging
+
+```php
+
+debug('Your variable or function'); 
+
+```
+
+
 ## Written based on
 
 * [PHP 7.4](https://www.php.net/downloads.php#v7.4.16)
