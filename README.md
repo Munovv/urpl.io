@@ -47,6 +47,7 @@ debug('Your variable or function');
 * [Jquery.js](https://electronjs.org/)
 * [TweenMax.js](https://greensock.com/tweenmax)
 * [Bootstrap 5](https://getbootstrap.com/)
+* [Pure Css Animated Background](https://codepen.io/mohaiman/pen/MQqMyo)
 
 ## Authors
 
