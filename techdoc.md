@@ -89,11 +89,11 @@ $ sudo mysql_secure_installation
 ```
 
 ##### Плагин для валидации паролей (необязательно для тестового сервера)
-``` linux
+``` shell
 $ sudo mysql_secure_installation
 ```
 
 ##### Вход в MySQL
-``` linux
-$ sudo <p color="red">mysql</p>
+``` sudo
+$ sudo mysql
 ```
