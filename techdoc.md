@@ -84,10 +84,6 @@ http://your_server_ip
 $ sudo apt install mysql-server
 ```
 
-``` linux
-$ sudo mysql_secure_installation
-```
-
 ##### Плагин для валидации паролей (необязательно для тестового сервера)
 ``` linux
 $ sudo mysql_secure_installation
