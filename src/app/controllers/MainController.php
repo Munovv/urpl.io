@@ -20,7 +20,7 @@ class MainController extends Controller
 							$code = $this->model->getUrl(['url' => $_POST['url']])[0]['short_code'];
 							$this->view->messageUrl(
 								"Success",
-								"Good!",
+								"Your short link has been successfully generated!",
 								"http://".$_SERVER['HTTP_HOST']."/g/".$code
 							);
 						} else {
