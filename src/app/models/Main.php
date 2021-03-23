@@ -34,7 +34,11 @@ class Main extends Model
           $params = [
             'short_code' => $url_code
           ];
-          return $this->db->column("SELECT id FROM i_url_data WHERE short_code = :short_code LIMIT 1", $params);
+          if (count($this->db->FetchAll('i_url_data', $params)) > 0) {
+            return false;
+          } else {
+            return true;
+          }
         }
 
         public function createShortLink(string $url): bool
